@@ -1,6 +1,9 @@
 {
   "scripts": {
-    "": ""
+    "theme-scss-watch": "sass --watch Source/Theme.scss Asset/css/theme.css",
+    "theme-scss-compile": "sass Source/Theme.scss Asset/css/theme.css",
+    "theme-css-prefix": "postcss Asset/css/theme.css --use autoprefixer -d Asset/css/ --verbose",
+    "theme-css-minify": "minify Asset/css/theme.css > Asset/css/theme.min.css"
   },
   "dependencies": {
     "postcss": "^8.4.29",
