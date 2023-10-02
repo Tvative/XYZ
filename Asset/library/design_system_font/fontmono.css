@@ -1,0 +1,126 @@
+/* Design System Mono Font
+ * JetBrains Mono Font
+ *
+ * Copyright (c) 2023 Tvative
+ * All Rights Reserved
+ *
+ * Use of this source code is governed by
+ * certain licenses found in the LICENSE file
+ */
+@font-face {
+  font-family: "Tvative Mono";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("font/jetbrainsmono/web/JetBrainsMono-Thin.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Tvative Mono";
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url("font/jetbrainsmono/web/JetBrainsMono-ThinItalic.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Tvative Mono";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("font/jetbrainsmono/web/JetBrainsMono-ExtraLight.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Tvative Mono";
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url("font/jetbrainsmono/web/JetBrainsMono-ExtraLightItalic.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Tvative Mono";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("font/jetbrainsmono/web/JetBrainsMono-Light.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Tvative Mono";
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url("font/jetbrainsmono/web/JetBrainsMono-LightItalic.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Tvative Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("font/jetbrainsmono/web/JetBrainsMono-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Tvative Mono";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("font/jetbrainsmono/web/JetBrainsMono-Italic.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Tvative Mono";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("font/jetbrainsmono/web/JetBrainsMono-Medium.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Tvative Mono";
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url("font/jetbrainsmono/web/JetBrainsMono-MediumItalic.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Tvative Mono";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("font/jetbrainsmono/web/JetBrainsMono-SemiBold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Tvative Mono";
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url("font/jetbrainsmono/web/JetBrainsMono-SemiBoldItalic.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Tvative Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("font/jetbrainsmono/web/JetBrainsMono-Bold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Tvative Mono";
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url("font/jetbrainsmono/web/JetBrainsMono-BoldItalic.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Tvative Mono";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("font/jetbrainsmono/web/JetBrainsMono-ExtraBold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Tvative Mono";
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url("font/jetbrainsmono/web/JetBrainsMono-ExtraBoldItalic.woff2") format("woff2");
+}
+.set-mono {
+  font-family: "Tvative Mono", monospace !important;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL1NvdXJjZS9Nb25vRm9udC5zY3NzIiwiZm9udG1vbm8uY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOzs7Ozs7OztFQUFBO0FBYUE7RUFDRSwyQkFBQTtFQUNBLGtCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxrQkFBQTtFQUNBLDJFQUFBO0FDSEY7QURNQTtFQUNFLDJCQUFBO0VBQ0Esa0JBQUE7RUFDQSxnQkFBQTtFQUNBLGtCQUFBO0VBQ0EsaUZBQUE7QUNKRjtBRE9BO0VBQ0UsMkJBQUE7RUFDQSxrQkFBQTtFQUNBLGdCQUFBO0VBQ0Esa0JBQUE7RUFDQSxpRkFBQTtBQ0xGO0FEUUE7RUFDRSwyQkFBQTtFQUNBLGtCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxrQkFBQTtFQUNBLHVGQUFBO0FDTkY7QURTQTtFQUNFLDJCQUFBO0VBQ0Esa0JBQUE7RUFDQSxnQkFBQTtFQUNBLGtCQUFBO0VBQ0EsNEVBQUE7QUNQRjtBRFVBO0VBQ0UsMkJBQUE7RUFDQSxrQkFBQTtFQUNBLGdCQUFBO0VBQ0Esa0JBQUE7RUFDQSxrRkFBQTtBQ1JGO0FEV0E7RUFDRSwyQkFBQTtFQUNBLGtCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxrQkFBQTtFQUNBLDhFQUFBO0FDVEY7QURZQTtFQUNFLDJCQUFBO0VBQ0Esa0JBQUE7RUFDQSxnQkFBQTtFQUNBLGtCQUFBO0VBQ0EsNkVBQUE7QUNWRjtBRGFBO0VBQ0UsMkJBQUE7RUFDQSxrQkFBQTtFQUNBLGdCQUFBO0VBQ0Esa0JBQUE7RUFDQSw2RUFBQTtBQ1hGO0FEY0E7RUFDRSwyQkFBQTtFQUNBLGtCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxrQkFBQTtFQUNBLG1GQUFBO0FDWkY7QURlQTtFQUNFLDJCQUFBO0VBQ0Esa0JBQUE7RUFDQSxnQkFBQTtFQUNBLGtCQUFBO0VBQ0EsK0VBQUE7QUNiRjtBRGdCQTtFQUNFLDJCQUFBO0VBQ0Esa0JBQUE7RUFDQSxnQkFBQTtFQUNBLGtCQUFBO0VBQ0EscUZBQUE7QUNkRjtBRGlCQTtFQUNFLDJCQUFBO0VBQ0Esa0JBQUE7RUFDQSxnQkFBQTtFQUNBLGtCQUFBO0VBQ0EsMkVBQUE7QUNmRjtBRGtCQTtFQUNFLDJCQUFBO0VBQ0Esa0JBQUE7RUFDQSxnQkFBQTtFQUNBLGtCQUFBO0VBQ0EsaUZBQUE7QUNoQkY7QURtQkE7RUFDRSwyQkFBQTtFQUNBLGtCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxrQkFBQTtFQUNBLGdGQUFBO0FDakJGO0FEb0JBO0VBQ0UsMkJBQUE7RUFDQSxrQkFBQTtFQUNBLGdCQUFBO0VBQ0Esa0JBQUE7RUFDQSxzRkFBQTtBQ2xCRjtBRHFCQTtFQUNFLGlEQUFBO0FDbkJGIiwiZmlsZSI6ImZvbnRtb25vLmNzcyJ9 */

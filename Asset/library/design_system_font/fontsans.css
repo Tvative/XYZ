@@ -1,0 +1,145 @@
+/* Design System Sans Font
+ * Inter Font
+ *
+ * Copyright (c) 2023 Tvative
+ * All Rights Reserved
+ *
+ * Use of this source code is governed by
+ * certain licenses found in the LICENSE file
+ */
+@font-face {
+  font-family: "Tvative Sans";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("font/inter/web/Inter-Thin.woff2") format("woff2"), url("font/inter/web/Inter-Thin.woff") format("woff");
+}
+@font-face {
+  font-family: "Tvative Sans";
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url("font/inter/web/Inter-ThinItalic.woff2") format("woff2"), url("font/inter/web/Inter-ThinItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "Tvative Sans";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("font/inter/web/Inter-ExtraLight.woff2") format("woff2"), url("font/inter/web/Inter-ExtraLight.woff") format("woff");
+}
+@font-face {
+  font-family: "Tvative Sans";
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url("font/inter/web/Inter-ExtraLightItalic.woff2") format("woff2"), url("font/inter/web/Inter-ExtraLightItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "Tvative Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("font/inter/web/Inter-Light.woff2") format("woff2"), url("font/inter/web/Inter-Light.woff") format("woff");
+}
+@font-face {
+  font-family: "Tvative Sans";
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url("font/inter/web/Inter-LightItalic.woff2") format("woff2"), url("font/inter/web/Inter-LightItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "Tvative Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("font/inter/web/Inter-Regular.woff2") format("woff2"), url("font/inter/web/Inter-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Tvative Sans";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("font/inter/web/Inter-Italic.woff2") format("woff2"), url("font/inter/web/Inter-Italic.woff") format("woff");
+}
+@font-face {
+  font-family: "Tvative Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("font/inter/web/Inter-Medium.woff2") format("woff2"), url("font/inter/web/Inter-Medium.woff") format("woff");
+}
+@font-face {
+  font-family: "Tvative Sans";
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url("font/inter/web/Inter-MediumItalic.woff2") format("woff2"), url("font/inter/web/Inter-MediumItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "Tvative Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("font/inter/web/Inter-SemiBold.woff2") format("woff2"), url("font/inter/web/Inter-SemiBold.woff") format("woff");
+}
+@font-face {
+  font-family: "Tvative Sans";
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url("font/inter/web/Inter-SemiBoldItalic.woff2") format("woff2"), url("font/inter/web/Inter-SemiBoldItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "Tvative Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("font/inter/web/Inter-Bold.woff2") format("woff2"), url("font/inter/web/Inter-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: "Tvative Sans";
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url("font/inter/web/Inter-BoldItalic.woff2") format("woff2"), url("font/inter/web/Inter-BoldItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "Tvative Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("font/inter/web/Inter-ExtraBold.woff2") format("woff2"), url("font/inter/web/Inter-ExtraBold.woff") format("woff");
+}
+@font-face {
+  font-family: "Tvative Sans";
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url("font/inter/web/Inter-ExtraBoldItalic.woff2") format("woff2"), url("font/inter/web/Inter-ExtraBoldItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "Tvative Sans";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("font/inter/web/Inter-Black.woff2") format("woff2"), url("font/inter/web/Inter-Black.woff") format("woff");
+}
+@font-face {
+  font-family: "Tvative Sans";
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url("font/inter/web/Inter-BlackItalic.woff2") format("woff2"), url("font/inter/web/Inter-BlackItalic.woff") format("woff");
+}
+* {
+  font-family: "Tvative Sans", sans-serif;
+  font-size: 15px;
+}
+
+.set-sans {
+  font-family: "Tvative Sans", sans-serif !important;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL1NvdXJjZS9TYW5zRm9udC5zY3NzIiwiZm9udHNhbnMuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOzs7Ozs7OztFQUFBO0FBYUE7RUFDRSwyQkFBQTtFQUNBLGtCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxrQkFBQTtFQUNBLGlIQUFBO0FDSEY7QURPQTtFQUNFLDJCQUFBO0VBQ0Esa0JBQUE7RUFDQSxnQkFBQTtFQUNBLGtCQUFBO0VBQ0EsNkhBQUE7QUNMRjtBRFNBO0VBQ0UsMkJBQUE7RUFDQSxrQkFBQTtFQUNBLGdCQUFBO0VBQ0Esa0JBQUE7RUFDQSw2SEFBQTtBQ1BGO0FEV0E7RUFDRSwyQkFBQTtFQUNBLGtCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxrQkFBQTtFQUNBLHlJQUFBO0FDVEY7QURhQTtFQUNFLDJCQUFBO0VBQ0Esa0JBQUE7RUFDQSxnQkFBQTtFQUNBLGtCQUFBO0VBQ0EsbUhBQUE7QUNYRjtBRGVBO0VBQ0UsMkJBQUE7RUFDQSxrQkFBQTtFQUNBLGdCQUFBO0VBQ0Esa0JBQUE7RUFDQSwrSEFBQTtBQ2JGO0FEaUJBO0VBQ0UsMkJBQUE7RUFDQSxrQkFBQTtFQUNBLGdCQUFBO0VBQ0Esa0JBQUE7RUFDQSx1SEFBQTtBQ2ZGO0FEbUJBO0VBQ0UsMkJBQUE7RUFDQSxrQkFBQTtFQUNBLGdCQUFBO0VBQ0Esa0JBQUE7RUFDQSxxSEFBQTtBQ2pCRjtBRHFCQTtFQUNFLDJCQUFBO0VBQ0Esa0JBQUE7RUFDQSxnQkFBQTtFQUNBLGtCQUFBO0VBQ0EscUhBQUE7QUNuQkY7QUR1QkE7RUFDRSwyQkFBQTtFQUNBLGtCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxrQkFBQTtFQUNBLGlJQUFBO0FDckJGO0FEeUJBO0VBQ0UsMkJBQUE7RUFDQSxrQkFBQTtFQUNBLGdCQUFBO0VBQ0Esa0JBQUE7RUFDQSx5SEFBQTtBQ3ZCRjtBRDJCQTtFQUNFLDJCQUFBO0VBQ0Esa0JBQUE7RUFDQSxnQkFBQTtFQUNBLGtCQUFBO0VBQ0EscUlBQUE7QUN6QkY7QUQ2QkE7RUFDRSwyQkFBQTtFQUNBLGtCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxrQkFBQTtFQUNBLGlIQUFBO0FDM0JGO0FEK0JBO0VBQ0UsMkJBQUE7RUFDQSxrQkFBQTtFQUNBLGdCQUFBO0VBQ0Esa0JBQUE7RUFDQSw2SEFBQTtBQzdCRjtBRGlDQTtFQUNFLDJCQUFBO0VBQ0Esa0JBQUE7RUFDQSxnQkFBQTtFQUNBLGtCQUFBO0VBQ0EsMkhBQUE7QUMvQkY7QURtQ0E7RUFDRSwyQkFBQTtFQUNBLGtCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxrQkFBQTtFQUNBLHVJQUFBO0FDakNGO0FEcUNBO0VBQ0UsMkJBQUE7RUFDQSxrQkFBQTtFQUNBLGdCQUFBO0VBQ0Esa0JBQUE7RUFDQSxtSEFBQTtBQ25DRjtBRHVDQTtFQUNFLDJCQUFBO0VBQ0Esa0JBQUE7RUFDQSxnQkFBQTtFQUNBLGtCQUFBO0VBQ0EsK0hBQUE7QUNyQ0Y7QUR5Q0E7RUFDRSx1Q0FBQTtFQUNBLGVBQUE7QUN2Q0Y7O0FEMENBO0VBQ0Usa0RBQUE7QUN2Q0YiLCJmaWxlIjoiZm9udHNhbnMuY3NzIn0= */
