@@ -1,0 +1,8 @@
+# Ignore Files
+
+# Ignore Directories
+
+.trash/
+.idea/
+
+node_modules/
