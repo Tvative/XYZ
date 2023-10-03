@@ -6,7 +6,6 @@
  * Use of this source code is governed by
  * certain licenses found in the LICENSE file
  */
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
 /* Design System Colors
  * Standard, Non Standard Colors and Tones
  *
@@ -19,22 +18,9 @@
 body {
   width: auto;
   height: 100vh;
-  background: linear-gradient(-45deg, #2D2D2D, #101010, #343434, #101010);
-  background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
+  background: linear-gradient(270deg, #2D2D2D 0%, #101010 100%);
 }
 
-@keyframes gradient {
-  0% {
-    background-position: 0 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0 50%;
-  }
-}
 .home-page .details-section {
   top: 0;
   bottom: 0;
@@ -60,7 +46,7 @@ body {
 .home-page .details-section .logo-text {
   color: #ededed;
   text-align: center;
-  font-family: "Ubuntu", sans-serif;
+  font-family: Ubuntu, serif;
   font-size: 30px;
   font-style: normal;
   font-weight: 500;
@@ -142,18 +128,6 @@ body {
   color: #ededed;
   content: "|";
 }
-@media (max-width: 481px) {
-  .home-page .link-section ul li:first-child {
-    display: none;
-  }
-  .home-page .link-section ul li:nth-child(2):after {
-    padding: 0;
-    content: none;
-  }
-  .home-page .link-section ul li:nth-child(3) {
-    display: none;
-  }
-}
 .home-page .alert-box {
   right: 32px;
   top: 32px;
@@ -167,12 +141,10 @@ body {
   border: 2px solid #2d2d2d;
   background: #101010;
   z-index: 1;
-  overflow: hidden;
-  word-break: break-word;
 }
 .home-page .alert-box .alert-title {
   display: block;
-  width: auto;
+  width: 256px;
   height: 24px;
   flex-direction: column;
   justify-content: center;
@@ -184,7 +156,7 @@ body {
   line-height: 120%;
 }
 .home-page .alert-box .alert-description {
-  width: auto;
+  width: 256px;
   height: 64px;
   color: #ededed;
   font-family: "Tvative Sans", serif;
@@ -214,18 +186,10 @@ body {
 .home-page .alert-box .alert-description a:focus {
   outline: #ededed dotted 2px;
 }
-@media (max-width: 481px) {
+@media (max-width: 400px) {
   .home-page .alert-box {
     left: 0;
     right: 0;
-    top: 0;
-    display: block;
-    width: auto;
-    padding: 16px;
-    margin: 32px;
-    justify-content: center;
-    align-items: flex-start;
-    position: relative;
   }
 }
 
